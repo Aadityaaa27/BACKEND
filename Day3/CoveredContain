@@ -1,0 +1,6 @@
+//what is rest api -design api include product,user,order,cart,category,auth
+//identification of rest api-HTTP AND HTTPS METHOD will be there
+//HTTP methods-put, get, post, delete, patch
+//Need of app.use(express.json()) middleware
+//Test the api using http method in postmen
+//The Need of database -as server restart,data(notes) will disappear and many more....

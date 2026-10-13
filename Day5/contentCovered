@@ -1,0 +1,5 @@
+//Connect to database
+//schema create -database kahta h data to main store kar lunga but mujhe format btna padega
+//database me operation karne ke liye -models ki requirement hoti h
+//model ko mongoose ke saath use karte h and string me apn ko database ka name rakhna chahta h wo dete h and schema ka variable and usko export karte h
+//variable.create karke server .js me use karte h and message display kkarte h
