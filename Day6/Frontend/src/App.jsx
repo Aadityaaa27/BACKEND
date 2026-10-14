@@ -31,7 +31,7 @@ const App = () => {
 
 
   function getNotes() {
-    axios.get("http://localhost:3000/api/notes")
+    axios.get("https://backend-5-29x7.onrender.com//api/notes")
       .then((res) => {
         setNotes(res.data.note)
       })
@@ -44,7 +44,7 @@ const App = () => {
 
     const { title, description } = e.currentTarget.elements;
 
-    axios.post("http://localhost:3000/api/notes", {
+    axios.post("https://backend-5-29x7.onrender.com//api/notes", {
       title: title.value,
       description: description.value
     }).then((res) => {
