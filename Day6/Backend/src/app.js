@@ -2,14 +2,11 @@ const express=require("express");
 const app=express();
 const cors=require("cors")
 const noteModel=require("./models/note.model")
-
 const path=require("path")
 app.use(express.json())
 app.use(express.static(path.join(__dirname, "..", "public")))
 app.use(cors())
-
 const notes=[];
-
 app.post("/api/notes",async(req,res)=>{
   const {title,description}=req.body
     const note=await noteModel.create({

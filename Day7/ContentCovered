@@ -1,0 +1,28 @@
+//Task 1(User ko register karvana )
+
+//normal database se connect kiya 
+
+//api ko rakhne ke liye routes folder bnaya 
+//app.js ke lawa aga apn kahi par bhi api bnana chahte h to routes ka use karte h
+//express me router hote h jo api ko alag alag file me rakhne me help karte h
+//register se api hit karunga postmen pe
+//problem same email se ek se jyada user register ho rhr h database me  ,ye problem h ,esliye schema me jaake email ko unique bnat eh 
+
+
+task-2 (Token create karna)
+
+//install-npm i jsonwebtoken 
+//jaha apn register kar rhe h usse folder me require karege 
+Token=jwt key+userdata
+//jwt.sign() method use karte h jisme userdata (obj form me )+jwt key pass karte h 
+//res me token bhej dete h 
+
+
+Jab token user ke pass aa jata h ,to wo kaha pe store rahta h maan lo maine 5 din baad again user server ko request bheji ,to ye user ke ssath ye token attach hoke register kar deta h ,to ye rahta kaha pe h?
+
+ans -cookies me ,browser side me cookies hota h jisko server direct access kar skta h
+
+//install-npm i cookie-parser
+
+//Login api use kiya and email and password check kiya and match h to res bheja loggin ka 
+//data breaches kya hota h and uske bachne ke liye password ko hash bnake use kiya 
